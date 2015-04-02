@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>iPad 1</title>
+  
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  <link href="assets/img/apple-touch-icon-57x57.png"  rel="apple-touch-icon-precomposed">
+  <link href="assets/img/apple-touch-icon-144x144.png"  rel="apple-touch-icon-precomposed">
+  
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script type='text/javascript' src="libs/jquery-2.1.0.js"></script>
+  <script type='text/javascript' src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+  <script type='text/javascript' src="libs/raphael.js"></script>
+  <script type='text/javascript' src="libs/g.raphael-min.js"></script>
+  <script type='text/javascript' src="libs/g.line-min.js"></script>
+  
+  <script type='text/javascript' src="libs/jQueryRotate.js"></script>
+
+  <script src="libs/d3.v3.min.js"></script>
+  <script src="libs/jquery.knob.js"></script>
+  
+  <link rel="stylesheet" href="css/iPadStyles1.css">
+  
+  
+  
+  
+  
+  <script>
+	var currentTemperature = 0, currentPressure = 0;
+  </script>
+</head>
+
+<body>
+  
+  <!--ui1-->
+
+  <div data-controller="1" class="controllers" id="ui1">
+  	<div data-controller="1" class="graphs" id="graph1"></div>
+		
+						 <img class="icon1" src="images/temp.png"/>
+						 <img class="icon2" src="images/gauge.png"/>
+						 
+						 <img class="circ" src="images/circ1.png"/>
+		
+		<div class="leftDiv">
+			<div id="temp" style="position: relative; ">
+				<h2 class="controlHeader1">Temperature</h2>
+				
+				<script src="js/tempSlider.js"></script>
+			</div>
+		</div>
+		<div class="rightDiv">
+			<div id="pressure" style="position: relative; height:400px;"> 
+				<h2 class="controlHeader2">Pressure</h2>
+
+				<input class="dial" value="0" id="pressureDial"> 
+				<script src="js/radial.js"></script>
+				<img id="pressurePointer" src="images/pressure_pointer.png"/>
+				
+			</div>
+		</div>
+		
+	
+  </div>
+  <script src="js/graph1.js"></script>
+</body>
+</html>
+
