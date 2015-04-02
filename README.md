@@ -8,6 +8,6 @@ https://vimeo.com/93687502	(promo video)
 <br><br>
 Links:<br>
 http://www.helloworld.cias.rit.edu/ (project website) <br><br>
-Desktop client: The environmental simulator -- http://guardedshelf3349.herokuapp.com <br><br>
-iPad 1 client: Temperature and Pressure -- http://guardedshelf3349.herokuapp.com/iPad/ipad1.html <br><br>
-iPad 2 client: Humidity and Wind -- http://guardedshelf3349.herokuapp.com/iPad/ipad2.html <br><br>
+Desktop client: The environmental simulator <br> http://guardedshelf3349.herokuapp.com <br>
+iPad 1 client: Temperature and Pressure<br> http://guardedshelf3349.herokuapp.com/iPad/ipad1.html <br>
+iPad 2 client: Humidity and Wind<br> http://guardedshelf3349.herokuapp.com/iPad/ipad2.html <br>
